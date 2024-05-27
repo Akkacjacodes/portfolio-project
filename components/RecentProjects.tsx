@@ -1,6 +1,6 @@
 "use client";
 
-import { FaLocationArrow } from "react-icons/fa6";
+// import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import Link from "next/link";
@@ -8,7 +8,7 @@ import './3d-card.css'
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
