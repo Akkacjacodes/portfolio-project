@@ -1,0 +1,13 @@
+.card-3d-container {
+  perspective: 1000px;
+  transition: transform 0.5s;
+}
+
+.card-3d {
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.card-3d-container:hover .card-3d {
+  transform: rotateY(15deg) rotateX(15deg);
+}

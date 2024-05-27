@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
@@ -53,7 +55,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const rightLists = ["VueJS", "NextJS", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -180,7 +182,7 @@ export const BentoGridItem = ({
                   }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+                {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
               </div>
 
               <MagicButton
