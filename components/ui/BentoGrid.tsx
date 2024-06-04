@@ -55,7 +55,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NextJS", "GraphQL"];
+  const rightLists = ["Mongo DB","Pipedrive", "NextJS"];
 
   const [copied, setCopied] = useState(false);
 

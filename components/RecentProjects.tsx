@@ -13,7 +13,7 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-10 mt-10">
         {projects.map((item) => (
           <CardContainer
             key={item.id}
@@ -44,18 +44,20 @@ const RecentProjects = () => {
                 <CardItem
                   translateZ={20}
                   as={Link}
-                  href="https://twitter.com/mannupaaji"
+                  href={item.link}
                   target="__blank"
                   className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                 >
-                  Check Live Site →
+                  Get in Touch
                 </CardItem>
                 <CardItem
                   translateZ={20}
                   as="button"
+                  onClick={() => window.open(item.link, "_blank")}
+                  target="_blank"
                   className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Sign up
+                  Check Live Site →
                 </CardItem>
               </div>
             </CardBody>
