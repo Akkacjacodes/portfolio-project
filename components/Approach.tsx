@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Our <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
@@ -28,9 +28,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Once we agree on the plan, we start the development process. We begin with initial sketches and move through to the polished code, keeping you informed and updated every step of the way. Our goal is to ensure you are always aware of the progress and have confidence in the work being done."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -50,9 +48,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="This is where the magic happens! During the deployment phase, we guide you through the process, addressing any bugs that may arise and making necessary adjustments. Our support doesn't end there! We continue to assist with any changes or updates to ensure the smooth operation of your product."
         >
           <CanvasRevealEffect
             animationSpeed={3}

@@ -1,14 +1,14 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "We prioritize client collaboration, fostering open communication ",
+    title: "Transform your ideas into an online product ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "We are very flexible with time zone communications",
+    title: "Building scalable and reliable apps ",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -74,7 +74,7 @@ export const projects = [
   {
     id: 1,
     title: "Drebbel Business Marketplace",
-    des: " Showcase your innovative technology solutions and connect with leading businesses ready to enhance their operations",
+    des: "The Drebbel Business Marketplace is an advanced platform offering real-time customer data with detailed charts and statistics. It enables B2B product listings and comprehensive company profiles for enhanced visibility and engagement.",
     img: "/dreebbel.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://marketplace.drebbel.eu/",
@@ -82,7 +82,7 @@ export const projects = [
   {
     id: 2,
     title: "SeaShore online banking app",
-    des: "SeaShore is a cutting-edge online banking app designed to simplify your financial management. Enjoy seamless access to your accounts, easy transfers, secure payments, and real-time monitoring—all from your mobile device.",
+    des: "The SeaShore online banking app enhances spending monitoring and allows transfers to various accounts and users. It utilizes top-tier security with Plaid (Stripe's alternative) and Sentry monitoring software.",
     img: "/SeaShore.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://banking-app-1-git-main-akkacjacodes-projects.vercel.app/sign-in",
@@ -90,7 +90,7 @@ export const projects = [
   {
     id: 3,
     title: "Drebbel Sales Dashboard",
-    des: "Drebbel is a team of sales experts why actively support, guide and lead start-ups and scale-ups in their endeavors to not only drive revenue but also secure vital funding for their growth.",
+    des: "The Drebbel Sales Dashboard automates business reporting, saving 25% of employee time. Directly connected to the company's proprietary drive, it automatically generates client reports, real-time statistics, and intuitive charts.",
     img: "/drebbel-dashboard.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://dashboard.drebbel.eu/",
@@ -98,8 +98,16 @@ export const projects = [
   {
     id: 4,
     title: "Deluxe Camper",
-    des: "Deluxe Camper offers premium, fully-equipped luxury campers for rent, providing an unparalleled travel experience. ",
+    des: "Deluxe Camper boasts an exceptional business website with a fully automated booking system, well-designed pages showcasing various campers, a comprehensive contact form, and a detailed FAQ section.",
     img: "/Deluxe-camper.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://deluxecamper.pl/",
+  },
+  {
+    id: 4,
+    title: "Drebbel Website",
+    des: "The Drebbel website features a modern design with an excellent user interface, interactive pages, a pricing page integrated with Stripe, and a fully functional contact form.",
+    img: "/Project-10.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://deluxecamper.pl/",
   },

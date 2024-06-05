@@ -7,92 +7,81 @@ export default function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "Drebbel Sales Dashboard",
+    link: "https://www.drebbel.eu/index.html",
+    thumbnail: "/drebbel-dashboard.png",
+  },
+  {
+    title: "SeaShore Online Banking App",
+    link: "https://banking-app-1-git-main-akkacjacodes-projects.vercel.app/",
+    thumbnail: "/SeaShore.png",
+  },
+
+  {
+    title: "Drebbel Marketplace",
+    link: "https://marketplace.drebbel.eu/",
     thumbnail: "/dreebbel.png",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
-    thumbnail: "/SeaShore.png",
-  },
-  {
-    title: "Rogue",
-    link: "https://userogue.com",
-    thumbnail: "/drebbel-dashboard.png",
-  },
-
-  {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "Deluxe Camper rental company",
+    link: "https://deluxecamper.pl/",
     thumbnail: "/Deluxe-camper.png",
   },
-  // {
-  //   title: "Editrix AI",
-  //   link: "https://editrix.ai",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-  // },
-  // {
-  //   title: "Pixel Perfect",
-  //   link: "https://app.pixelperfect.quest",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
-  // },
+  {
+    title: "Drebbel Marketplace",
+    link: "https://marketplace.drebbel.eu/",
+    thumbnail: "/Project-1.png",
+  },
+  {
+    title: "Drebbel Sales Dashboard",
+    link: "https://dashboard.drebbel.eu/",
+    thumbnail: "/Project-2.png",
+  },
 
-  // {
-  //   title: "Algochurn",
-  //   link: "https://algochurn.com",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
-  // },
-  // {
-  //   title: "Aceternity UI",
-  //   link: "https://ui.aceternity.com",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
-  // },
-  // {
-  //   title: "Tailwind Master Kit",
-  //   link: "https://tailwindmasterkit.com",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  // },
-  // {
-  //   title: "SmartBridge",
-  //   link: "https://smartbridgetech.com",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  // },
-  // {
-  //   title: "Renderwork Studio",
-  //   link: "https://renderwork.studio",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
-  // },
+  {
+    title: "SeaShore Online Banking App",
+    link: "https://banking-app-1-git-main-akkacjacodes-projects.vercel.app/",
+    thumbnail: "/Project-3.png",
+  },
+  {
+    title: "SeaShore Online Banking App",
+    link: "https://banking-app-1-git-main-akkacjacodes-projects.vercel.app/",
+    thumbnail: "/Project-4.png",
+  },
+  {
+    title: "Drebbel Sales Dashboard",
+    link: "https://www.drebbel.eu/index.html",
+    thumbnail: "/Project-5.png",
+  },
+  {
+    title: "SeaShore Online Banking App",
+    link: "https://banking-app-1-git-main-akkacjacodes-projects.vercel.app/",
+    thumbnail: "/Project-6.png",
+  },
+  {
+    title: "SeaShore Online Banking App",
+    link: "https://banking-app-1-git-main-akkacjacodes-projects.vercel.app/",
+    thumbnail: "/Project-7.png",
+  },
 
-  // {
-  //   title: "Creme Digital",
-  //   link: "https://cremedigital.com",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
-  // },
-  // {
-  //   title: "Golden Bells Academy",
-  //   link: "https://goldenbellsacademy.com",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-  // },
-  // {
-  //   title: "Invoker Labs",
-  //   link: "https://invoker.lol",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/invoker.png",
-  // },
-  // {
-  //   title: "E Free Invoice",
-  //   link: "https://efreeinvoice.com",
-  //   thumbnail:
-  //     "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
-  // },
+  {
+    title: "Drebbel Pricing",
+    link: "https://www.drebbel.eu/pricing.html",
+    thumbnail: "/Project-9.png",
+  },
+  {
+    title: "SeaShore Online Banking App",
+    link: "https://banking-app-1-git-main-akkacjacodes-projects.vercel.app/",
+    thumbnail: "/Project-8.png",
+  },
+  {
+    title: "Drebbel Website",
+    link: "https://www.drebbel.eu/",
+    thumbnail: "/Project-101.png",
+  },
+  {
+    title: "Drebbel markets",
+    link: "https://www.drebbel.eu/go-to-market.html",
+    thumbnail: "/Project-11.png",
+  },
 ];

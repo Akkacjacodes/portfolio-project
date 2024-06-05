@@ -1,4 +1,4 @@
-import '../app/globals.css'
+import "../app/globals.css";
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
@@ -7,12 +7,12 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-0 pt-36 bg-black ">
+    <div className="pb-0 pt-36">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
        */}
-      <div>
+      {/* <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="white"
@@ -22,7 +22,7 @@ const Hero = () => {
           fill="purple"
         />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
-      </div>
+      </div> */}
 
       {/**
        *  UI: grid
@@ -30,17 +30,19 @@ const Hero = () => {
        *  0.2 to 0.03
        */}
       <div
-        className="h-screen w-full dark:bg-black-100 bg-black
-         dark:bg-grid-white/[0.27] 
-        bg-grid-black-100/[0.15]
-       absolute top-0 left-0 flex items-center justify-center"
+      //   className="h-screen w-full dark:bg-black-100 bg-black
+      //    dark:bg-grid-white/[0.27] 
+      //   bg-grid-black-100/[0.15]
+      //  absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
+        {/*
         <div
           // chnage the bg to bg-black-100, so it matches the bg color and will blend in
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
+        */}
       </div>
 
       <div className="flex justify-center relative mt-20 mb-10 z-10">
