@@ -189,8 +189,8 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Next JS development",
-    desc: "Designed and developed banking platform with multiple third party software integrations",
+    title: "Dashboard development",
+    desc: "Designed and developed multiple rel time dashboards with third party software integrations",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -203,7 +203,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Interractive UI",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
