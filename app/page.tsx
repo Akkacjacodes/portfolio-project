@@ -4,15 +4,15 @@ import "./globals.css";
 import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
+import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Paralax from "@/components/Paralax";
-import Footer from "@/components/Footer";
+import Grid from "@/components/Grid";
 import Clients from "@/components/Clients";
+import Team from "@/components/Team";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
-
+import Footer from "@/components/Footer";
 
 
 const Home = () => {
@@ -25,6 +25,7 @@ const Home = () => {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Team />
         {/* <Clients /> */}
         <Experience />
         <Approach />
