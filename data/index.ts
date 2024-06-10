@@ -118,19 +118,19 @@ export const projects = [
 export const team = [
   {
     id: 1,
-    title: "Krishnanshu Rathore",
-    des: "Lead developer who loves solving problems, is agile towards programming languages, and thrives as a startup developer.",
-    img: "/Profile-2.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.linkedin.com/in/krishnanshu-rathore/",
-  },
-  {
-    id: 2,
     title: "Darshan Soni",
     des: " A talented businessman recognized for his dedication to client satisfaction and his ability to identify optimal solutions for businesses.",
     img: "/Profile-3.jpeg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.linkedin.com/in/darshan-soni-195978224/",
+  },
+  {
+    id: 2,
+    title: "Krishnanshu Rathore",
+    des: "Lead developer who loves solving problems, is agile towards programming languages, and thrives as a startup developer.",
+    img: "/Profile-2.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://www.linkedin.com/in/krishnanshu-rathore/",
   },
   {
     id: 3,
